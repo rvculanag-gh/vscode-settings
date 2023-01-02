@@ -21,6 +21,7 @@
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "simple-icons"
 }
 
