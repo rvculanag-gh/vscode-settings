@@ -1,0 +1,26 @@
+{
+  "breadcrumbs.enabled": false,
+
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.matchBrackets": "always",
+  "editor.guides.bracketPairs": "active",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "native",
+  "window.title": "${dirty}${separator}💻${separator}${dirty}",
+
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": false,
+  "workbench.iconTheme": "simple-icons"
+}
+
