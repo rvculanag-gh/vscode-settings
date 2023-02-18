@@ -1,7 +1,7 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
