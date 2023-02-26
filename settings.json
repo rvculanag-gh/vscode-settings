@@ -7,7 +7,7 @@
   "editor.matchBrackets": "always",
   "editor.guides.bracketPairs": "active",
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -18,9 +18,12 @@
   "window.title": "${dirty}${separator}💻${separator}${dirty}",
 
   "workbench.startupEditor": "none",
-  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
   "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "simple-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[python]": {
+    "editor.formatOnType": true
+  }
 }
-
