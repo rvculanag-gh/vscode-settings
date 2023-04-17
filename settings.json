@@ -25,7 +25,6 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 15,
 
-  // Python settings
   "python.analysis.autoImportCompletions": true,
   "python.formatting.autopep8Args": [
     "--max-line-length",
