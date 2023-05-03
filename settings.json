@@ -1,7 +1,7 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "MonoLisa",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
