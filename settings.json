@@ -1,7 +1,7 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Fira Code Retina",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
@@ -20,9 +20,9 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Dracula",
-  "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "simple-icons",
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 15,
 
   "python.analysis.autoImportCompletions": true,
@@ -43,5 +43,7 @@
     "editor.formatOnSave": true,
     "editor.rulers": [88]
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false
 }
