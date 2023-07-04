@@ -1,7 +1,7 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
@@ -17,14 +17,18 @@
   "window.titleBarStyle": "native",
   "window.title": "${dirty}${separator}💻${separator}${dirty}",
 
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Andromeda",
+  "workbench.colorTheme": "Default Light Modern",
   "workbench.iconTheme": "simple-icons",
-  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 15,
 
+  "python.formatting.provider": "black",
   "python.analysis.autoImportCompletions": true,
   "python.formatting.autopep8Args": [
     "--max-line-length",
@@ -42,8 +46,5 @@
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.rulers": [88]
-  },
-  "python.formatting.provider": "none",
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false
+  }
 }
