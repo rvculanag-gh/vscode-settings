@@ -1,7 +1,7 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Monolisa",
   "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
@@ -12,39 +12,20 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
 
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "native",
   "window.title": "${dirty}${separator}💻${separator}${dirty}",
 
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Default Light Modern",
   "workbench.iconTheme": "simple-icons",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Andromeda Colorizer",
 
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontSize": 15,
-
-  "python.formatting.provider": "black",
-  "python.analysis.autoImportCompletions": true,
-  "python.formatting.autopep8Args": [
-    "--max-line-length",
-    "120",
-    "--experimental"
-  ],
-  "python.formatting.yapfArgs": [
-    "--style",
-    "{based_on_style: chromium, indent_width: 2}"
-  ],
-  "python.formatting.blackArgs": ["--line-length", "100"],
-
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    "editor.rulers": [88]
-  }
+  "terminal.integrated.fontSize": 15
 }
