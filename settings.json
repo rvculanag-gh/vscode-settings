@@ -1,8 +1,9 @@
 {
   "breadcrumbs.enabled": false,
 
-  "editor.fontFamily": "Monolisa",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
   "editor.bracketPairColorization.enabled": true,
   "editor.matchBrackets": "always",
   "editor.guides.bracketPairs": "active",
@@ -21,11 +22,17 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "workbench.iconTheme": "simple-icons",
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.activityBar.location": "hidden",
+  "window.customTitleBarVisibility": "never",
 
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontSize": 15
+  "terminal.integrated.fontSize": 15,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "workbench.colorTheme": "Andromeda"
 }
